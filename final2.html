@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday 💖</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+/* Common */
+.page {
+    display: none;
+    min-height: 100vh;
+}
+.active {
+    display: block;
+}
+
+/* 🌸 Page 1 */
+#page1 {
+    position: relative;
+}
+#page1 img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+.page1-text {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: white;
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #ff8fab;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* 💕 Page 2 */
+#page2 {
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    padding-top: 40px;
+    color:rgb(128, 0, 85);
+}
+.card {
+    background: rgba(255,255,255,0.2);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+}
+.options button {
+    display: block;
+    width: 80%;
+    margin: 8px auto;
+    background: white;
+    color: #ff4d6d;
+}
+
+/* 💖 Page 3 */
+#page3 {
+    color: white;
+}
+.bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('imagep/WhatsApp Image 2026-04-26 at 6.19.05 PM.jpeg') center/cover no-repeat;
+    filter: brightness(50%);
+    z-index: -1;
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+.section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.section .text {
+    width: 40%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+h1 {
+    font-size: 40px;
+    
+}
+#h1{
+    color:lightblue;
+    
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- 💖 Page 1 -->
+<div id="page1" class="page active">
+    <img src="imagep/WhatsApp Image 2026-04-26 at 2.50.04 PM.jpeg">
+    <div class="page1-text">
+        <h1>Happy Birthday Thangoo 🫀</h1>
+        <button onclick="nextPage(2)">Start ➡️</button>
+    </div>
+</div>
+
+<!-- 💕 Page 2 -->
+<div id="page2" class="page">
+    <h2>If you pass the test you can kiss me 😏💋</h2>
+    <div id="quizBox"></div>
+    <div id="result"></div>
+</div>
+
+<!-- 💖 Page 3 -->
+<div id="page3" class="page">
+    <div class="bg"></div>
+
+    <h1 id="h1" >🎀Remember?🎀 
+</h1>
+
+    <div class="section reverse">
+        <img src="imagep/WhatsApp Image 2026-04-26 at 6.22.17 PM.jpeg">
+        <img src="imagep/WhatsApp Image 2026-04-26 at 7.08.39 PM.jpeg">
+        <div class="text">
+            Nammaloda first photo...🥺💞
+            remember this?😌❤️<br>
+            Annaiku ennoda 17th birthday 2022 📅. <br>Ni8 namma pesite iruntho nee enaku surprise ah 
+            intha ring vangi vachiruntha 🥺🫂 , ahna unaku excitement thaanga mudiyama na unaku onu vangi vachirukamu nu intha photo anupi vita😂😂.
+            enkitta soliruntha,<b style="background:yellow;color:black;">"Naan thaan ring potu viduven💍"</b> nu, so renduperm early ahve school vanthutom .Aprm ring potu vitinga aprm intha photoo🫀👀.
+            En kaiya pudicha motha aambala pullada nee 🫶🧿.
+        </div>
+    </div>
+
+    <div class="section">
+        <img src="imagep/WhatsApp Image 2026-04-26 at 7.30.32 PM.jpeg">
+        <img src="imagep/WhatsApp Image 2026-04-26 at 7.44.09 PM.jpeg">
+        <img src="imagep/WhatsApp Image 2026-04-26 at 7.43.51 PM.jpeg">
+        <div class="text">
+            Slowly, you became my habit 😌💕
+            Unkita pesama antha naal ah pogathu 🥺💞
+            Nyabago iruka mu? late ni8 VC ,chats. Apolam unkooda pesama thoongave mudiyathu😌 .Ellarum thoongura varaikum wait panni
+            aprm thirutu thanama amma illana akka phn eduthutu vanthu unkita pesuvan 🫀😮‍💨 , neeum wait pannuva ,sila nal nee thoongiruva apolam kastama irukum 😕.
+            Itha nenachitu type panumpothe happy tears varuthu mah 🥹🤍...Na adikadi solluvenla antha prakash ah miss pandre miss pandrenu because na viluntha phase athu 🧿🧿🧿.
+        </div>
+    </div>
+
+    <div class="section reverse">
+        <img src="imagep/WhatsApp Image 2026-04-28 at 9.57.51 AM.jpeg ">
+        <img src="imagep/WhatsApp Image 2026-04-28 at 9.56.29 AM.jpeg" alt="">
+        <img src="imagep/WhatsApp Image 2026-04-28 at 9.56.28 AM.jpeg" alt="">
+        <div class="text">
+            Intha ring pona year unnoda birthday ku munnadi kuduthen nenaika ,Date sariya nyabago illa 😌... 
+            Evlo aasaiya vanguna ring theriuma 😌❤️, cha Nantha potu vidanumnu nenachi kondu vanthe koodave oru letterum sethu💌ִֶָ. ..𓂃 ࣪ ִֶָ🪽་༘࿐.
+            Unaku ring na potu vidrathuke time illa aprm enga letter lam vangi atha rasichi...😮‍💨. aprm v2ku poi nee intha rendu photovum snap anupuna 🫶🥹
+            Orunaal ellar munnadium akka thampiku ring potu vida poren athuvum gold la 🧿🧿🧿😂..
+        </div>
+    </div>
+
+    <div class="section">
+        <video controls width="300">
+        <source src="c:\Users\acer\Downloads\WhatsApp Video 2026-04-28 at 9.45.22 AM.mp4"></video>
+        <div class="text">
+            Intha video edit panna na patta padu iruke 😂😂😂😂😂😂😭.
+            Aaaappppppiiiiiiii bathhhhhhhdaaayyyyyyy tooooooooooo yyoooooooooou karuvayyyyyyyyyyyya 🤣🤣🤣
+            Mwa💋
+        </div>
+    </div>
+
+    <div class="section reverse">
+        <video controls width="300">
+            <source src="c:\Users\acer\Downloads\WhatsApp Video 2026-04-28 at 8.47.47 AM.mp4"></video>
+        </video>
+        <div class="text">
+        Ithu nammaluku 💥💎🌍♥️🫵🏻....<br>
+        Akka unna alaga pathukire Seekiro enkita vanthuruᯓ🏃🏻‍♀️‍➡️🔥<br>
+        Akka enga ponalum unatha nenachitu irupe last la unkitaiiye vanthuruve 🎯<br>
+        Unaku epolam life kastama iruko akkkita odi vanthuru🫶🏻🥹❤️‍🩹 ..akkavala edhume panna mudiyalanalum akka irupen💯💎🌍<br>
+        Akkaku kaadhaal koodite poguuthuuuuuu🚂🚃🚃🚃🚃🤣<br>
+        Forever with you muuu🌍😌❤️<br>
+        Nee Naam Mattum Iruppomm 🫴🏻❤️‍🩹<br>
+        Nee enaku illanalum happy ah irukanum 🥹❤️‍🩹 <br>
+
+        Seriyyaaaaa<br>
+         rompa pesite mudichikalaama?😂❤️‍🩹
+
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+let current = 0;
+let score = 0;
+
+const questions = [
+{
+q: "Who fell in love first? 😍",
+options: ["You 😌", "Me 😎", "Still figuring 🥺"],
+answer: "Still figuring 🥺"
+},
+{
+q: "Who loves you more in the world? 🌍💖",
+options: ["Me 😏", "Me 😏", "Me 😏"],
+answer: "Me 😏"
+},
+{
+q: "Who do you love the most? 😏",
+options: ["Ennoda Mamiyar 👩‍👦", "Unnoda Pondati 👩‍❤️‍👨"],
+answer: "Ennoda Mamiyar 👩‍👦"
+},
+{
+q: "When was our first kiss? 💋",
+options: ["11th 😜", "12th 😘", "College ❤️"],
+answer: "12th 😘"
+},
+{
+q: "Who loves more? 🥰",
+options: ["You 😌", "Me 😏", "Both 💞"],
+answer: "Both 💞"
+}
+];
+
+function nextPage(p){
+document.querySelectorAll(".page").forEach(e=>e.classList.remove("active"));
+document.getElementById("page"+p).classList.add("active");
+
+if(p === 2) loadQuestion();
+}
+
+function loadQuestion(){
+if(current >= questions.length){
+showResult();
+return;
+}
+
+let q = questions[current];
+
+let html = `<div class="card"><h3>${q.q}</h3><div class="options">`;
+
+q.options.forEach(opt=>{
+html += `<button onclick="checkAnswer('${opt}')">${opt}</button>`;
+});
+
+html += `</div></div>`;
+document.getElementById("quizBox").innerHTML = html;
+}
+
+function checkAnswer(selected){
+if(selected === questions[current].answer){
+score++;
+alert("Come and take a Ummah 😘");
+} else {
+alert("you don't deserve my kiss poda 😜");
+}
+current++;
+loadQuestion();
+}
+
+function showResult(){
+document.getElementById("quizBox").innerHTML = "";
+
+if(score >= 3){
+document.getElementById("result").innerHTML =
+"😍 You passed! Intha Ummah 💋<br><br><br><br> <br><button onclick='nextPage(3)'> Go to Memories 💖</button>";
+}else{
+document.getElementById("result").innerHTML =
+"😜 You failed… 💔 You don't deserve my ummah 😏<br><br><br><br> <br><button onclick='nextPage(3)'> Go to Memories 💖</button>";
+}
+}
+</script>
+
+</body>
+</html>
